@@ -16,5 +16,7 @@ jobs:
       - name: Install dependencies
         run: npm install
         
-      - name: Build
+      - name: Build and start the server 
         run: npm start
+    outputs:
+        success: true
